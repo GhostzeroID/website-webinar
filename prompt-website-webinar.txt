@@ -1,0 +1,916 @@
+ANDA ADALAH AI SENIOR FULLSTACK WEB DEVELOPER, UI/UX DESIGNER, SEO SPECIALIST, BRANDING EXPERT, DAN FRONTEND ENGINEER.
+
+TUGAS:
+Bantu saya membuat website landing page modern dari nol sampai siap online dengan kualitas professional menggunakan:
+
+- HTML5
+- CSS3
+- Alpine JS atau JavaScript murni
+- Tanpa framework berat
+- Design modern premium
+- SEO Friendly
+- Mobile responsive
+- Fast loading
+- Clean architecture
+- Icon SVG premium (bukan emoji) di seluruh UI
+- Gambar & asset visual lengkap — tidak boleh ada slot kosong
+
+==================================================
+STRUKTUR FOLDER PROJECT (WAJIB)
+==================================================
+
+Buat struktur folder persis seperti ini:
+
+website-webinar/
+├── index.html
+├── css/
+│   └── style.css
+├── js/
+│   └── main.js
+├── assets/
+│   ├── favicon.svg
+│   ├── favicon-32.png          (opsional)
+│   ├── apple-touch-icon.png    (opsional)
+│   ├── images/                 (semua gambar — lihat section GAMBAR)
+│   └── icons/                  (SVG icon — lihat section ICON)
+├── robots.txt
+├── sitemap.xml
+├── README.md
+├── .gitignore                  (abaikan .DS_Store, .env, node_modules)
+└── docs/
+    ├── BRANDING.md
+    ├── TYPOGRAPHY.md
+    ├── ASSETS.md
+    ├── AI-IMAGE-PROMPTS.md
+    └── DEPLOY.md
+
+Aturan file:
+- Satu halaman utama: index.html (landing page single page)
+- CSS terpusat di css/style.css (boleh pisah jika > 800 baris)
+- JS terpusat di js/main.js
+- Dokumentasi wajib di folder docs/
+- Jangan commit file .env atau kredensial
+
+==================================================
+KONSEP WEBSITE
+==================================================
+
+Tema website:
+Kuliner / Restaurant modern premium.
+
+Nama brand:
+“Rasa Nusantara”
+
+Konsep:
+Restoran modern dengan nuansa elegan, hangat, premium, dan modern Indonesian culinary.
+
+Target user:
+- Anak muda
+- Keluarga
+- Wisatawan
+- Pecinta kuliner
+- Pengguna mobile
+
+Tujuan:
+- Branding restoran
+- Menampilkan menu unggulan
+- Reservasi online
+- Menampilkan lokasi
+- Promosi makanan
+- SEO Google
+
+==================================================
+STYLE DESIGN
+==================================================
+
+Buat design:
+- Modern
+- Elegant
+- Premium
+- Clean
+- Minimalis
+- Responsive
+- Luxury culinary style
+- Interactive modern landing page
+
+Gunakan:
+- Hero full screen
+- Sticky navbar
+- Modern cards
+- Gradient modern
+- Rounded corners
+- Soft shadow
+- Smooth animation
+- Glassmorphism ringan
+- Hover interaction modern
+- Icon SVG konsisten (Lucide/Heroicons style)
+- Setiap section punya visual (gambar/icon) — tidak boleh tampak kosong
+
+==================================================
+WARNA BRAND
+==================================================
+
+Gunakan sistem warna berikut:
+
+Primary:
+#C2410C
+
+Secondary:
+#FB923C
+
+Dark:
+#1E293B
+
+Background Cream:
+#FFF7ED
+
+Text:
+#0F172A
+
+Accent Gold:
+#F59E0B
+
+Token tambahan (CSS variables):
+--color-primary-dark: #9A3412
+--color-text-muted: #64748B
+--color-white: #FFFFFF
+
+Pastikan konsisten di seluruh website.
+Simpan semua warna di :root {} di css/style.css — jangan hardcode hex berulang di banyak tempat.
+
+==================================================
+TYPOGRAPHY
+==================================================
+
+Gunakan typography modern premium.
+
+Heading Font:
+Poppins Bold
+
+Body Font:
+Inter Regular
+
+Karakter typography:
+- Elegan
+- Premium
+- Strong branding
+- Modern startup style
+- Mudah dibaca
+
+Gunakan hierarki typography yang kuat:
+- Hero title besar
+- Subtitle clean
+- CTA menonjol
+- Spacing rapi
+- White space modern
+
+==================================================
+STRUKTUR HALAMAN
+==================================================
+
+Buat landing page lengkap dengan section:
+
+1. Navbar
+- Logo
+- Home
+- Tentang
+- Menu
+- Gallery
+- Testimoni
+- Kontak
+- Tombol reservasi
+
+2. Hero Section
+- Headline besar (H1 tunggal di halaman)
+- Subheadline menarik
+- 2 CTA button (Reservasi + Lihat Menu)
+- Hero background image full-bleed + overlay gradient
+- Badge label di atas headline (dengan icon SVG)
+- Statistik mini: Rating, Jumlah Menu, Tamu Puas (3 box glassmorphism)
+- Scroll indicator animasi di bawah hero
+- id="home" untuk anchor link
+
+3. Tentang Kami
+- Cerita brand
+- Keunggulan restoran
+- Experience
+
+4. Menu Unggulan
+- Card makanan modern
+- Harga
+- Rating
+- Hover effect
+
+5. Kenapa Memilih Kami
+- Fast service
+- Premium quality
+- Fresh ingredients
+- Professional chef
+
+6. Gallery
+- Responsive grid
+- Modern culinary photos
+
+7. Testimoni
+- Slider modern
+- Customer review card
+
+8. CTA Reservasi
+- Strong CTA
+- Modern button
+- WhatsApp CTA
+
+9. Footer
+- 4 kolom: Brand + tagline, Navigasi, Kontak, Lokasi
+- Icon SVG di setiap item kontak (phone, mail, clock, map)
+- Social media dengan icon SVG (IG, FB, TT, YT)
+- Link Google Maps
+- Copyright + credit webinar
+- id="kontak" untuk anchor link
+
+Aturan anchor & navigasi:
+- Setiap section wajib punya id unik: home, tentang, menu, gallery, testimoni, reservasi, kontak
+- Semua link navbar href="#id-section"
+- Smooth scroll dengan offset navbar (height navbar)
+
+==================================================
+KONTEN & COPYWRITING (BAHASA INDONESIA)
+==================================================
+
+Semua teks wajib Bahasa Indonesia, profesional, hangat, mengundang.
+
+Data bisnis default (boleh disesuaikan, tapi tidak boleh kosong):
+
+| Field | Nilai default |
+|-------|---------------|
+| Nama brand | Rasa Nusantara |
+| Tagline | Kuliner Indonesia Modern Premium |
+| Telepon | +62 812-3456-7890 |
+| WhatsApp | 6281234567890 (format wa.me tanpa +) |
+| Email | hello@rasanusantara.com |
+| Alamat | Jl. Kuliner Nusantara No. 88, Kebayoran Baru, Jakarta Selatan 12190 |
+| Jam buka | Senin–Minggu, 10.00 – 22.00 WIB |
+| Domain | rasanusantara.com |
+| Tahun berdiri | 2018 |
+
+Menu unggulan — minimal 4 item, masing-masing wajib punya:
+- Nama hidangan (spesifik Indonesia)
+- Deskripsi 1–2 kalimat
+- Harga format Rp (contoh: Rp 185.000)
+- Rating (contoh: 4.9)
+- Kategori (Main Course / Signature / Appetizer / Dessert)
+- Badge opsional (Best Seller / New)
+- Foto di assets/images/
+
+Contoh menu:
+1. Rendang Wagyu Premium — Rp 185.000
+2. Nasi Goreng Kampung Deluxe — Rp 89.000
+3. Gado-Gado Royal — Rp 65.000
+4. Es Cendol Premium — Rp 45.000
+
+Testimoni — minimal 3, masing-masing wajib punya:
+- Kutipan review (2–3 kalimat, dalam tanda kutip)
+- Nama pelanggan
+- Profesi / kota
+- Rating 5 bintang (icon SVG, bukan karakter ★)
+- Foto avatar di assets/images/testimoni-XX.webp
+
+Hero headline contoh:
+"Cita Rasa Nusantara, Disajikan dengan Elegan"
+
+CTA reservasi contoh:
+"Siap Merasakan Cita Rasa Nusantara?"
++ subtext promo (welcome drink gratis, dll.)
+
+==================================================
+KOMPONEN UI & DESIGN SYSTEM
+==================================================
+
+Button variants wajib:
+- .btn--primary     → gradient orange, shadow glow
+- .btn--outline     → border putih (untuk hero)
+- .btn--outline-light → border putih di CTA box gelap
+- .btn--ghost       → background transparan orange tipis (menu card)
+- .btn--whatsapp    → hijau #25D366 + icon SVG
+- Ukuran: .btn--sm, .btn--lg
+
+Card variants:
+- .menu-card        → gambar + body + hover lift
+- .feature-card     → icon + title + desc, centered
+- .testimoni-card   → quote + stars + avatar
+
+Section pattern (konsisten di semua section):
+- .section__label   → pill badge uppercase kecil
+- .section__title  → H2 bold Poppins
+- .section__desc    → paragraf muted
+
+Navbar states:
+- Default: transparan di atas hero
+- .scrolled: dark glassmorphism + blur + shadow (setelah scroll > 50px)
+
+Spacing & layout:
+- .container max-width: 1200px, padding inline 1.25rem
+- Section padding: 5rem desktop, 3.5rem mobile
+- Grid gap konsisten: 1.5rem – 2rem
+
+==================================================
+RESPONSIVE
+==================================================
+
+WAJIB:
+- Mobile first
+- Tablet responsive
+- Desktop responsive
+- Hamburger menu mobile
+- Flexible layout
+- Responsive typography
+
+Breakpoint wajib (mobile first):
+- Base: 0 – 767px     (mobile)
+- Tablet: 768px – 1023px
+- Desktop: 1024px+
+
+Perilaku responsive kunci:
+- Navbar: hamburger + slide panel kanan di mobile
+- Hero stats: wrap / stack di mobile
+- About: 2 kolom → 1 kolom di tablet ke bawah
+- Menu grid: auto-fill minmax(280px, 1fr) → 1 kolom di mobile
+- Gallery: 4 kolom grid → 2 kolom tablet → 1 kolom mobile
+- Footer: 4 kolom → 2 kolom tablet → 1 kolom mobile
+- CTA box: flex row → column center di tablet
+
+==================================================
+ANIMASI
+==================================================
+
+Tambahkan:
+- Smooth scrolling
+- Fade animation
+- Hover effect
+- Card animation
+- Navbar animation
+- Button interaction
+
+Gunakan:
+- CSS animation
+- Alpine JS ringan
+- JavaScript ringan
+
+Detail animasi wajib:
+- .fade-up + class .visible via Intersection Observer (threshold 0.12)
+- Testimoni slider: translateX, auto-play 5 detik, pause on hover
+- Menu card hover: translateY(-8px) + image scale(1.08)
+- Navbar hamburger: transform bar → X saat .open
+- Hero scroll indicator: keyframe bounce
+- prefers-reduced-motion: reduce → matikan animasi bergerak
+
+==================================================
+JAVASCRIPT — FITUR WAJIB
+==================================================
+
+File js/main.js wajib implementasi (vanilla JS, IIFE, 'use strict'):
+
+1. Navbar scroll
+   - Tambah class .scrolled saat window.scrollY > 50
+
+2. Mobile menu
+   - Toggle .open pada menu & hamburger
+   - aria-expanded true/false
+   - body overflow hidden saat menu buka
+   - Tutup saat klik link, klik luar, tombol Escape
+
+3. Smooth scroll
+   - Semua a[href^="#"] → scroll dengan offset navbar
+   - Tutup mobile menu setelah klik anchor
+
+4. Active nav link
+   - Highlight .navbar__link.active sesuai section yang terlihat
+
+5. Scroll animations
+   - IntersectionObserver untuk .fade-up → .visible
+   - Fallback: langsung .visible jika Observer tidak support
+
+6. Testimoni slider
+   - Prev / Next button
+   - Dot indicator dinamis (dibuild via JS)
+   - Auto-slide interval 5000ms
+   - aria-label pada tombol navigasi
+
+Jangan gunakan jQuery, React, Vue, atau library lain.
+
+==================================================
+ARSITEKTUR CSS & KODE
+==================================================
+
+CSS:
+- Gunakan CSS Custom Properties (:root) untuk semua token design
+- Naming convention: BEM-like (.block__element--modifier)
+- Komentar section: /* --- Navbar --- */, /* --- Hero --- */
+- Satu file style.css untuk project ini (cukup untuk landing page)
+- Urutan: variables → reset → utilities → components → sections → responsive → reduced-motion
+
+HTML:
+- lang="id" pada tag <html>
+- Semantic tags: header, nav, main, section, article, footer, address, figure, blockquote
+- Satu H1 saja (di hero)
+- Hierarki heading tidak boleh loncat (H1 → H2 → H3)
+- Komentar section: <!-- ========== HERO ========== -->
+- defer pada <script src="js/main.js">
+
+JavaScript:
+- IIFE untuk isolasi scope
+- Event listener passive untuk scroll
+- Tidak ada inline script di HTML (kecuali JSON-LD)
+
+==================================================
+SEO GOOGLE
+==================================================
+
+Optimasi SEO:
+- Semantic HTML
+- Meta title
+- Meta description
+- Meta keywords
+- Open Graph
+- Structured heading
+- Alt image
+- Lazy loading
+- Fast loading
+- SEO friendly structure
+
+Tambahkan file nyata (bukan hanya konsep):
+- robots.txt
+- sitemap.xml
+- favicon.svg di assets/
+
+Meta tags wajib di <head>:
+- charset UTF-8
+- viewport width=device-width
+- meta description (150–160 karakter)
+- meta keywords
+- link rel="canonical"
+- Open Graph: og:type, og:title, og:description, og:image, og:url, og:locale
+- Twitter Card: twitter:card, twitter:title, twitter:description
+
+Structured data JSON-LD wajib:
+- @type: Restaurant
+- name, description, url, telephone, servesCuisine
+- address (PostalAddress lengkap)
+- openingHoursSpecification
+
+Heading structure:
+- H1: hero title (1x)
+- H2: setiap section title
+- H3: card title, footer column title
+
+Preconnect performa:
+- fonts.googleapis.com
+- fonts.gstatic.com
+
+==================================================
+AKSESIBILITAS
+==================================================
+
+Pastikan:
+- Kontras warna baik (WCAG AA minimum)
+- Accessible button (min height 44px touch target)
+- Accessible typography (min 16px body)
+- Keyboard friendly (Tab navigasi semua link & button)
+- :focus-visible outline jelas (warna secondary)
+- Skip to content link (opsional tapi disarankan)
+- aria-label pada tombol icon-only (hamburger, slider prev/next)
+- aria-expanded pada mobile menu toggle
+- aria-labelledby pada setiap section
+- role="banner", role="contentinfo", role="menubar" where appropriate
+- prefers-reduced-motion: reduce di CSS
+- Alt text unik & deskriptif di semua gambar
+- cite + footer di blockquote testimoni
+
+==================================================
+PERFORMA
+==================================================
+
+Optimasi:
+- Minify concept
+- Optimized image
+- Lazy loading
+- Reusable CSS
+- Clean code
+- Fast rendering
+- Tidak menggunakan library berat
+
+Target Lighthouse (development):
+- Performance: > 80
+- Accessibility: > 90
+- Best Practices: > 90
+- SEO: > 90
+
+Teknik performa wajib:
+- loading="lazy" + decoding="async" pada gambar bawah fold
+- fetchpriority="high" hanya pada hero image
+- preconnect font (bukan @import di CSS)
+- Tidak ada render-blocking JS (gunakan defer)
+- CSS tanpa @import chain
+
+==================================================
+PROMPT GENERATE GAMBAR AI
+==================================================
+
+Buat prompt AI image generation untuk SEMUA slot gambar:
+
+1. Hero makanan premium (hero-bg.webp)
+2. Interior restoran modern (about-interior.webp)
+3. Menu — Rendang Wagyu (menu-rendang.webp)
+4. Menu — Nasi Goreng (menu-nasigoreng.webp)
+5. Menu — Gado-Gado (menu-gadogado.webp)
+6. Menu — Es Cendol (menu-cendol.webp)
+7. Gallery — suasana dining (gallery-01.webp)
+8. Gallery — hidangan overhead (gallery-02.webp)
+9. Gallery — chef memasak (gallery-03.webp)
+10. Gallery — dessert (gallery-04.webp)
+11. Gallery — interior bar (gallery-05.webp)
+12. Avatar testimoni — wanita (testimoni-01.webp)
+13. Avatar testimoni — pria (testimoni-02.webp)
+14. Avatar testimoni — wanita 2 (testimoni-03.webp)
+15. OG cover social share (og-cover.jpg)
+
+Simpan semua prompt lengkap di docs/AI-IMAGE-PROMPTS.md dengan:
+- Prompt text siap copy-paste
+- Aspect ratio (--ar 16:9, 4:3, 4:5, 1:1)
+- Ukuran export px
+- Nama file output
+
+Style gambar:
+- Cinematic
+- Warm lighting
+- Ultra realistic
+- Premium culinary branding
+- High detail
+- Modern restaurant photography
+
+==================================================
+ICON — WAJIB PAKAI ICON ASLI (TIDAK BOLEH KOSONG)
+==================================================
+
+WAJIB:
+- JANGAN gunakan emoji sebagai icon utama (🍽 ⚡ 🥬 dll.) — hanya placeholder sementara
+- Semua icon HARUS berupa SVG inline atau file SVG di folder assets/icons/
+- Website harus terlihat lebih keren, profesional, dan konsisten dengan icon set premium
+
+Sumber icon (pilih salah satu, gratis & legal):
+- Lucide Icons — https://lucide.dev (MIT, rekomendasi utama)
+- Heroicons — https://heroicons.com (MIT)
+- Phosphor Icons — https://phosphoricons.com (MIT)
+
+Icon yang WAJIB disediakan dan dipasang di HTML:
+
+Navbar & UI:
+- Logo icon (utensils / chef hat / flame kuliner)
+- Menu hamburger (3 bar → close animation)
+- Tombol close mobile menu
+
+Hero & Section:
+- Badge / sparkles icon di hero badge
+- Scroll down indicator (chevron-down)
+- Section label icon (opsional, konsisten per section)
+
+Tentang & Features:
+- Trophy / award (pengalaman premium)
+- Leaf / sprout (bahan segar)
+- Chef hat (chef profesional)
+- Zap / bolt (fast service)
+- Gem / diamond (premium quality)
+
+Menu Card:
+- Star (rating)
+- Shopping bag atau plus (tombol pesan)
+
+Gallery:
+- Zoom-in atau expand (hover gallery, opsional)
+
+Testimoni:
+- Star filled (rating 5 bintang, bukan teks ★★★★★)
+
+CTA & Kontak:
+- WhatsApp icon (SVG resmi style, bukan teks)
+- Phone icon (hubungi kami)
+- Map pin (lokasi footer)
+- Mail / envelope (email footer)
+- Clock (jam operasional)
+
+Footer Social Media:
+- Instagram
+- Facebook
+- TikTok
+- YouTube
+
+Cara implementasi icon:
+- Inline SVG langsung di HTML (disarankan — tanpa request ekstra)
+- Atau file terpisah: assets/icons/nama-icon.svg
+- Warna icon ikuti brand: primary #C2410C, secondary #FB923C, putih di dark bg
+- Ukuran konsisten: 20–24px UI, 32–48px feature card, 40px social footer
+- Semua icon wajib punya aria-hidden="true" atau aria-label jika interaktif
+
+Style icon:
+- Stroke-based (outline) untuk tampilan modern clean
+- Stroke width: 1.5–2px
+- Rounded linecap & linejoin
+- Hover: ubah warna ke --color-secondary atau scale 1.05
+
+==================================================
+GAMBAR & MEDIA — TIDAK BOLEH KOSONG
+==================================================
+
+WAJIB:
+- TIDAK BOLEH ada section dengan gambar kosong, broken image, atau placeholder abu-abu
+- TIDAK BOLEH hanya mengandalkan URL eksternal tanpa fallback lokal
+- Setiap slot gambar di HTML HARUS terisi gambar nyata (lokal atau CDN valid)
+- Website harus terlihat hidup, premium, dan siap presentasi webinar
+
+Struktur folder gambar WAJIB lengkap:
+
+assets/images/
+├── hero-bg.webp              ← Background hero (1920×1080)
+├── og-cover.jpg              ← Open Graph social share (1200×630)
+├── about-interior.webp       ← Section tentang (800×1000)
+├── menu-rendang.webp         ← Menu card 1
+├── menu-nasigoreng.webp      ← Menu card 2
+├── menu-gadogado.webp        ← Menu card 3
+├── menu-cendol.webp          ← Menu card 4
+├── gallery-01.webp           ← Gallery grid
+├── gallery-02.webp
+├── gallery-03.webp
+├── gallery-04.webp
+├── gallery-05.webp
+├── testimoni-01.webp         ← Avatar pelanggan (80×80, bulat)
+├── testimoni-02.webp
+└── testimoni-03.webp
+
+Mapping gambar ke section (tidak boleh ada yang skip):
+
+| Section        | File gambar              | Alt text wajib (deskriptif SEO)        |
+|----------------|--------------------------|----------------------------------------|
+| Hero           | hero-bg.webp             | Hidangan premium Rasa Nusantara        |
+| Tentang        | about-interior.webp      | Interior restoran modern elegan        |
+| Menu 1–4       | menu-*.webp              | Nama hidangan + deskripsi singkat      |
+| Gallery 1–5    | gallery-*.webp           | Suasana / hidangan / chef              |
+| Testimoni 1–3  | testimoni-*.webp         | Foto pelanggan [nama]                  |
+| OG / Share     | og-cover.jpg             | Rasa Nusantara — Kuliner Indonesia     |
+
+Sumber gambar (pilih sesuai kondisi):
+
+Opsi A — Generate AI (disarankan untuk production):
+- Gunakan prompt di section PROMPT GENERATE GAMBAR AI
+- Export WebP, compress < 200KB per file
+
+Opsi B — Placeholder berkualitas tinggi (development):
+- Unsplash / Pexels URL valid dengan parameter ?w= & q=80
+- WAJIB tetap sediakan file lokal di assets/images/ untuk production
+
+Opsi C — Placeholder SVG gradient (hanya jika gambar belum siap):
+- Buat file SVG branded (warna #C2410C + #FB923C) + label nama hidangan
+- TIDAK boleh kotak abu-abu kosong
+
+Aturan teknis gambar:
+- Format: WebP utama, JPG fallback untuk OG
+- Lazy loading: loading="lazy" kecuali hero (eager + fetchpriority="high")
+- width & height attribute di setiap <img> (cegah layout shift)
+- alt text deskriptif & unik di setiap gambar (SEO + aksesibilitas)
+- object-fit: cover di CSS untuk konsistensi crop
+- Hover gallery: scale 1.05–1.08 + transition halus
+
+Jika gambar AI belum tersedia saat build:
+- Download 15 gambar relevan dari Unsplash (keyword: indonesian food, restaurant interior, chef cooking, dessert)
+- Simpan ke assets/images/ dengan nama file sesuai tabel di atas
+- Update semua src di index.html ke path lokal: assets/images/nama-file.webp
+
+==================================================
+ASET LENGKAP — CHECKLIST WAJIB
+==================================================
+
+Folder assets/ HARUS cukup lengkap sebelum dianggap production ready:
+
+assets/
+├── favicon.svg               ← Favicon utama
+├── favicon-32.png            ← Opsional PNG fallback
+├── apple-touch-icon.png      ← 180×180 untuk iOS
+├── images/                   ← Semua gambar (lihat daftar di atas)
+└── icons/                    ← SVG icon terpisah (jika tidak inline)
+    ├── logo.svg
+    ├── menu.svg
+    ├── whatsapp.svg
+    ├── phone.svg
+    ├── map-pin.svg
+    ├── mail.svg
+    ├── clock.svg
+    ├── star.svg
+    ├── instagram.svg
+    ├── facebook.svg
+    ├── tiktok.svg
+    ├── youtube.svg
+    ├── trophy.svg
+    ├── leaf.svg
+    ├── chef-hat.svg
+    ├── zap.svg
+    └── gem.svg
+
+Checklist sebelum deploy (semua harus ✅):
+- [ ] Tidak ada emoji sebagai icon UI utama
+- [ ] Semua 15+ slot gambar terisi & tampil di browser
+- [ ] Favicon tampil di tab browser
+- [ ] og-cover.jpg ada untuk share WhatsApp/Facebook
+- [ ] Tidak ada broken image (404) di Network tab
+- [ ] Avatar testimoni bulat & proporsional
+- [ ] Hero background full-bleed tanpa area kosong
+- [ ] Menu card punya foto makanan di setiap card
+
+Output tambahan wajib dari AI developer:
+18. File SVG icon lengkap di assets/icons/ ATAU inline SVG di HTML
+19. Semua gambar tersimpan di assets/images/ (bukan hanya URL eksternal)
+20. Script/checklist verifikasi asset di README atau docs/ASSETS.md
+
+==================================================
+OUTPUT YANG HARUS DIBUAT
+==================================================
+
+WAJIB HASILKAN:
+
+1. Struktur folder project
+2. HTML lengkap
+3. CSS lengkap modern
+4. JavaScript atau Alpine JS
+5. Responsive mobile
+6. SEO setup
+7. Prompt gambar AI
+8. Asset recommendation
+9. Icon recommendation
+10. Typography guideline
+11. Branding guideline
+12. Clean code explanation
+13. Cara deploy hosting
+14. Cara online ke internet
+15. Optimasi indexing Google
+16. Struktur file production
+17. Best practice frontend modern
+18. Icon SVG lengkap (inline atau assets/icons/) — tanpa emoji
+19. Gambar lengkap di assets/images/ — tidak ada slot kosong
+20. Checklist verifikasi asset (docs/ASSETS.md)
+21. Testing & QA checklist (di README atau docs/)
+
+==================================================
+README.md — ISI WAJIB
+==================================================
+
+README harus mencakup:
+- Judul & deskripsi singkat project
+- Daftar fitur (bullet)
+- Struktur folder tree
+- Cara menjalankan lokal (python -m http.server / npx serve)
+- Tabel warna brand
+- Typography singkat
+- Daftar section halaman
+- Cara kustomisasi (WhatsApp, menu, gambar, warna)
+- Link ke docs/ (BRANDING, TYPOGRAPHY, ASSETS, DEPLOY, AI-IMAGE-PROMPTS)
+- Best practice yang diterapkan
+- Lisensi / konteks webinar edukasi
+
+==================================================
+TESTING & QA SEBELUM SERAH
+==================================================
+
+Functional:
+- [ ] Semua link navbar scroll ke section benar
+- [ ] Mobile menu buka/tutup/escape/outside click
+- [ ] Testimoni slider prev/next/dot/auto-play
+- [ ] Tombol WhatsApp buka wa.me dengan pesan prefilled
+- [ ] Tombol tel: buka dialer di mobile
+
+Visual:
+- [ ] Tidak ada emoji sebagai icon UI
+- [ ] Semua gambar tampil (0 broken image di Network tab)
+- [ ] Favicon tampil di tab browser
+- [ ] Hover states berfungsi di card & button
+- [ ] Navbar .scrolled setelah scroll
+
+Responsive — test di:
+- [ ] 375px (iPhone)
+- [ ] 768px (iPad)
+- [ ] 1280px (Desktop)
+
+SEO & a11y:
+- [ ] Satu H1, hierarki heading benar
+- [ ] Meta description ada
+- [ ] JSON-LD valid (test di Google Rich Results Test)
+- [ ] Tab keyboard bisa navigasi semua elemen interaktif
+
+Browser minimum:
+- Chrome, Firefox, Safari, Edge (versi terbaru)
+
+==================================================
+KUALITAS HASIL
+==================================================
+
+Hasil akhir harus seperti:
+- Startup premium
+- Modern SaaS landing page
+- Luxury restaurant website
+- Modern frontend professional
+
+Gunakan:
+- Clean code
+- Komentar kode jelas
+- Struktur mudah dipahami
+- Cocok untuk webinar edukasi
+- Cocok untuk pemula sampai menengah
+
+==================================================
+OUTPUT FINAL
+==================================================
+
+Berikan hasil:
+- Professional
+- Siap deploy
+- Responsive
+- SEO friendly
+- Modern UI/UX
+- Strong branding
+- Production ready
+- Icon SVG premium di seluruh UI (bukan emoji)
+- Semua gambar terisi & tampil — tidak ada area visual kosong
+- Folder assets/ lengkap (favicon, images, icons)
+
+Gunakan pendekatan frontend modern terbaik tahun terbaru.
+
+CATATAN PENTING UNTUK AI DEVELOPER:
+Saat generate website dari prompt ini, ikuti URUTAN BUILD ini:
+
+Fase 1 — Fondasi
+1. Buat struktur folder lengkap
+2. Tulis index.html semantic dengan semua section & konten Indonesia
+3. Pasang meta SEO + JSON-LD + canonical
+
+Fase 2 — Visual (TIDAK BOLEH DILEWATI)
+4. Pasang icon SVG inline di SETIAP elemen (ganti semua emoji)
+5. Download/generate SEMUA gambar ke assets/images/
+6. Update semua src gambar ke path lokal
+
+Fase 3 — Style & Interaksi
+7. css/style.css — variables, components, responsive, animasi
+8. js/main.js — navbar, menu mobile, slider, scroll, observer
+
+Fase 4 — Dokumentasi & Deploy
+9. docs/ lengkap (BRANDING, TYPOGRAPHY, ASSETS, AI-PROMPTS, DEPLOY)
+10. robots.txt + sitemap.xml + README.md
+11. Jalankan TESTING & QA checklist
+
+Website yang icon/gambarnya kosong TIDAK memenuhi standar hasil akhir.
+Website tanpa docs/ dan tanpa QA checklist TIDAK dianggap production ready.
+
+==================================================
+RINGKASAN COVERAGE PROMPT (CEK KELENGKAPAN)
+==================================================
+
+| Area | Status di prompt ini |
+|------|---------------------|
+| Struktur folder | ✅ |
+| Konsep & brand | ✅ |
+| Warna & typography | ✅ |
+| Section halaman detail | ✅ |
+| Konten/copywriting Indonesia | ✅ |
+| Komponen UI & design system | ✅ |
+| Icon SVG wajib | ✅ |
+| Gambar tidak kosong | ✅ |
+| Asset checklist | ✅ |
+| Responsive breakpoints | ✅ |
+| Animasi detail | ✅ |
+| JavaScript fitur | ✅ |
+| Arsitektur CSS/HTML/JS | ✅ |
+| SEO lengkap | ✅ |
+| Aksesibilitas | ✅ |
+| Performa & Lighthouse | ✅ |
+| Prompt AI 15 gambar | ✅ |
+| Dokumentasi docs/ | ✅ |
+| README isi wajib | ✅ |
+| Testing & QA | ✅ |
+| Urutan build AI | ✅ |
+| Deploy & indexing | ✅ (via docs/DEPLOY.md output) |
+
+==================================================
+KONTEKS WEBINAR EDUKASI
+==================================================
+
+Project ini untuk pembelajaran frontend pemula–menengah. Saat generate:
+
+- Berikan komentar kode jelas di HTML/CSS/JS (bahasa Indonesia atau Inggris)
+- Jelaskan keputusan teknis singkat di README (mengapa vanilla JS, mengapa CSS variables)
+- Kode harus mudah diikuti live coding di webinar
+- Hindari trik advanced yang membingungkan pemula
+- Setiap file bisa dibuka terpisah dan dipahami mandiri
+
+Materi yang bisa diajarkan dari project ini:
+- Semantic HTML5 & SEO dasar
+- CSS Flexbox, Grid, Custom Properties
+- Responsive mobile-first
+- JavaScript DOM & Event API
+- Intersection Observer
+- Deploy static site gratis
