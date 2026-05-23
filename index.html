@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Rasa Nusantara — Restoran kuliner Indonesia modern premium di Jakarta. Nikmati rendang wagyu, nasi goreng deluxe, dan reservasi online.">
+  <meta name="keywords" content="restoran indonesia, kuliner nusantara, rendang wagyu, reservasi restoran jakarta, rasa nusantara">
+  <meta name="author" content="Rasa Nusantara">
+  <link rel="canonical" href="https://rasanusantara.com/">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Rasa Nusantara — Kuliner Indonesia Modern Premium">
+  <meta property="og:description" content="Cita rasa Nusantara disajikan dengan elegan. Reservasi online, menu signature, dan pengalaman kuliner premium.">
+  <meta property="og:image" content="https://rasanusantara.com/assets/images/og-cover.jpg">
+  <meta property="og:url" content="https://rasanusantara.com/">
+  <meta property="og:locale" content="id_ID">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Rasa Nusantara — Kuliner Indonesia Modern Premium">
+  <meta name="twitter:description" content="Cita rasa Nusantara disajikan dengan elegan. Reservasi online dan menu signature premium.">
+
+  <title>Rasa Nusantara — Kuliner Indonesia Modern Premium</title>
+
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Restaurant",
+    "name": "Rasa Nusantara",
+    "description": "Restoran kuliner Indonesia modern premium dengan cita rasa Nusantara autentik disajikan dengan elegan.",
+    "url": "https://rasanusantara.com",
+    "telephone": "+62-812-3456-7890",
+    "email": "hello@rasanusantara.com",
+    "servesCuisine": "Indonesian",
+    "priceRange": "$$",
+    "image": "https://rasanusantara.com/assets/images/og-cover.jpg",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Jl. Kuliner Nusantara No. 88",
+      "addressLocality": "Kebayoran Baru",
+      "addressRegion": "Jakarta Selatan",
+      "postalCode": "12190",
+      "addressCountry": "ID"
+    },
+    "openingHoursSpecification": {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+      "opens": "10:00",
+      "closes": "22:00"
+    }
+  }
+  </script>
+</head>
+<body>
+
+  <a href="#main-content" class="skip-link">Lewati ke konten utama</a>
+
+  <!-- ========== NAVBAR ========== -->
+  <header class="navbar" role="banner">
+    <div class="container navbar__inner">
+      <a href="#home" class="navbar__brand" aria-label="Rasa Nusantara — Beranda">
+        <svg class="navbar__logo-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M3 2v7c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2V2"/>
+          <path d="M7 2v20"/>
+          <path d="M21 15V2a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2h3Zm0 0v7"/>
+        </svg>
+        <span class="navbar__brand-text">Rasa Nusantara</span>
+      </a>
+
+      <nav class="navbar__nav" id="navbar-nav" role="menubar" aria-label="Navigasi utama">
+        <ul class="navbar__menu">
+          <li role="none"><a href="#home" class="navbar__link active" role="menuitem">Home</a></li>
+          <li role="none"><a href="#tentang" class="navbar__link" role="menuitem">Tentang</a></li>
+          <li role="none"><a href="#menu" class="navbar__link" role="menuitem">Menu</a></li>
+          <li role="none"><a href="#gallery" class="navbar__link" role="menuitem">Gallery</a></li>
+          <li role="none"><a href="#testimoni" class="navbar__link" role="menuitem">Testimoni</a></li>
+          <li role="none"><a href="#kontak" class="navbar__link" role="menuitem">Kontak</a></li>
+        </ul>
+        <a href="#reservasi" class="btn btn--primary btn--sm navbar__cta">Reservasi</a>
+      </nav>
+
+      <button class="navbar__hamburger" id="navbar-toggle" type="button" aria-label="Buka menu navigasi" aria-expanded="false" aria-controls="navbar-nav">
+        <span class="navbar__hamburger-bar"></span>
+        <span class="navbar__hamburger-bar"></span>
+        <span class="navbar__hamburger-bar"></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main-content">
+
+    <!-- ========== HERO ========== -->
+    <section id="home" class="hero" aria-labelledby="hero-title">
+      <div class="hero__bg">
+        <img src="assets/images/hero-bg.webp" alt="Hidangan premium Rasa Nusantara dengan pencahayaan hangat" width="1920" height="1080" fetchpriority="high" decoding="async">
+      </div>
+      <div class="hero__overlay" aria-hidden="true"></div>
+      <div class="container hero__content">
+        <div class="hero__badge fade-up">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"/>
+          </svg>
+          Kuliner Indonesia Modern Premium
+        </div>
+        <h1 id="hero-title" class="hero__title fade-up">Cita Rasa Nusantara, Disajikan dengan Elegan</h1>
+        <p class="hero__subtitle fade-up">Nikmati perpaduan tradisi dan inovasi dalam setiap sajian. Dari rendang wagyu premium hingga es cendol modern — semua dibuat dengan bahan segar pilihan.</p>
+        <div class="hero__actions fade-up">
+          <a href="#reservasi" class="btn btn--primary btn--lg">Reservasi Sekarang</a>
+          <a href="#menu" class="btn btn--outline btn--lg">Lihat Menu</a>
+        </div>
+        <div class="hero__stats fade-up">
+          <div class="hero__stat glass-card">
+            <span class="hero__stat-value">4.9</span>
+            <span class="hero__stat-label">Rating Google</span>
+          </div>
+          <div class="hero__stat glass-card">
+            <span class="hero__stat-value">50+</span>
+            <span class="hero__stat-label">Menu Pilihan</span>
+          </div>
+          <div class="hero__stat glass-card">
+            <span class="hero__stat-value">10K+</span>
+            <span class="hero__stat-label">Tamu Puas</span>
+          </div>
+        </div>
+      </div>
+      <a href="#tentang" class="hero__scroll" aria-label="Scroll ke bawah">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="m6 9 6 6 6-6"/>
+        </svg>
+      </a>
+    </section>
+
+    <!-- ========== TENTANG ========== -->
+    <section id="tentang" class="section section--about" aria-labelledby="tentang-title">
+      <div class="container">
+        <div class="section__header fade-up">
+          <span class="section__label">Tentang Kami</span>
+          <h2 id="tentang-title" class="section__title">Perjalanan Rasa Sejak 2018</h2>
+          <p class="section__desc">Rasa Nusantara lahir dari kecintaan pada warisan kuliner Indonesia. Kami menghadirkan cita rasa autentik dengan sentuhan modern, dalam suasana yang hangat dan elegan.</p>
+        </div>
+        <div class="about__grid">
+          <figure class="about__image fade-up">
+            <img src="assets/images/about-interior.webp" alt="Interior restoran Rasa Nusantara yang modern dan hangat" width="800" height="600" loading="lazy" decoding="async">
+          </figure>
+          <div class="about__content fade-up">
+            <h3 class="about__subtitle">Cerita di Balik Setiap Sajian</h3>
+            <p>Sejak 2018, kami berkomitmen menyajikan hidangan Nusantara terbaik dengan bahan lokal pilihan dan teknik memasak profesional. Setiap piring adalah perayaan budaya Indonesia.</p>
+            <ul class="about__highlights">
+              <li>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"/><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"/><path d="M4 22h16"/><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"/><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"/><path d="M18 2H6v7a6 6 0 0 0 12 0V2Z"/></svg>
+                <span>Pengalaman kuliner premium sejak 2018</span>
+              </li>
+              <li>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"/><path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"/></svg>
+                <span>Bahan segar dari petani lokal terpercaya</span>
+              </li>
+              <li>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17 21a1 1 0 0 0 1-1v-5.35c0-.245 0-.367-.027-.484a1 1 0 0 0-.11-.33c-.061-.11-.15-.2-.328-.387l-2.64-2.64A4 4 0 0 0 10.66 10H9a4 4 0 0 0-2.828 1.172l-2.5 2.5A4 4 0 0 0 3 14.66V20a1 1 0 0 0 1 1z"/><path d="M6 10V8a4 4 0 0 1 4-4h.5"/><circle cx="12" cy="4" r="2"/></svg>
+                <span>Tim chef berpengalaman internasional</span>
+              </li>
+            </ul>
+            <a href="#menu" class="btn btn--primary">Jelajahi Menu</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== MENU ========== -->
+    <section id="menu" class="section section--menu" aria-labelledby="menu-title">
+      <div class="container">
+        <div class="section__header fade-up">
+          <span class="section__label">Menu Unggulan</span>
+          <h2 id="menu-title" class="section__title">Sajian Signature Kami</h2>
+          <p class="section__desc">Empat hidangan terfavorit yang wajib Anda coba — perpaduan sempurna antara tradisi Nusantara dan sentuhan modern.</p>
+        </div>
+        <div class="menu__grid">
+          <article class="menu-card fade-up">
+            <div class="menu-card__image-wrap">
+              <img src="assets/images/menu-rendang.webp" alt="Rendang Wagyu Premium disajikan elegan" width="400" height="300" loading="lazy" decoding="async">
+              <span class="menu-card__badge">Best Seller</span>
+            </div>
+            <div class="menu-card__body">
+              <span class="menu-card__category">Main Course</span>
+              <h3 class="menu-card__title">Rendang Wagyu Premium</h3>
+              <p class="menu-card__desc">Daging wagyu empuk dimasak rendang 12 jam dengan rempah pilihan Sumatera Barat.</p>
+              <div class="menu-card__footer">
+                <div class="menu-card__rating" aria-label="Rating 4.9 dari 5">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
+                  <span>4.9</span>
+                </div>
+                <span class="menu-card__price">Rp 185.000</span>
+              </div>
+              <a href="#reservasi" class="btn btn--ghost btn--sm menu-card__cta">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"/><path d="M3 6h18"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
+                Pesan Sekarang
+              </a>
+            </div>
+          </article>
+
+          <article class="menu-card fade-up">
+            <div class="menu-card__image-wrap">
+              <img src="assets/images/menu-nasigoreng.webp" alt="Nasi Goreng Kampung Deluxe dengan telur mata sapi" width="400" height="300" loading="lazy" decoding="async">
+            </div>
+            <div class="menu-card__body">
+              <span class="menu-card__category">Signature</span>
+              <h3 class="menu-card__title">Nasi Goreng Kampung Deluxe</h3>
+              <p class="menu-card__desc">Nasi goreng kampung dengan bumbu rahasia, telur mata sapi, dan sambal homemade pedas manis.</p>
+              <div class="menu-card__footer">
+                <div class="menu-card__rating" aria-label="Rating 4.8 dari 5">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
+                  <span>4.8</span>
+                </div>
+                <span class="menu-card__price">Rp 89.000</span>
+              </div>
+              <a href="#reservasi" class="btn btn--ghost btn--sm menu-card__cta">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"/><path d="M3 6h18"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
+                Pesan Sekarang
+              </a>
+            </div>
+          </article>
+
+          <article class="menu-card fade-up">
+            <div class="menu-card__image-wrap">
+              <img src="assets/images/menu-gadogado.webp" alt="Gado-Gado Royal dengan bumbu kacang kental" width="400" height="300" loading="lazy" decoding="async">
+              <span class="menu-card__badge menu-card__badge--new">New</span>
+            </div>
+            <div class="menu-card__body">
+              <span class="menu-card__category">Appetizer</span>
+              <h3 class="menu-card__title">Gado-Gado Royal</h3>
+              <p class="menu-card__desc">Sayuran segar pilihan dengan bumbu kacang premium, kerupuk udang, dan telur rebus.</p>
+              <div class="menu-card__footer">
+                <div class="menu-card__rating" aria-label="Rating 4.7 dari 5">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
+                  <span>4.7</span>
+                </div>
+                <span class="menu-card__price">Rp 65.000</span>
+              </div>
+              <a href="#reservasi" class="btn btn--ghost btn--sm menu-card__cta">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"/><path d="M3 6h18"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
+                Pesan Sekarang
+              </a>
+            </div>
+          </article>
+
+          <article class="menu-card fade-up">
+            <div class="menu-card__image-wrap">
+              <img src="assets/images/menu-cendol.webp" alt="Es Cendol Premium dengan santan dan gula merah" width="400" height="300" loading="lazy" decoding="async">
+            </div>
+            <div class="menu-card__body">
+              <span class="menu-card__category">Dessert</span>
+              <h3 class="menu-card__title">Es Cendol Premium</h3>
+              <p class="menu-card__desc">Cendol hijau segar dengan santan kelapa, gula merah asli, dan es serut halus.</p>
+              <div class="menu-card__footer">
+                <div class="menu-card__rating" aria-label="Rating 4.9 dari 5">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
+                  <span>4.9</span>
+                </div>
+                <span class="menu-card__price">Rp 45.000</span>
+              </div>
+              <a href="#reservasi" class="btn btn--ghost btn--sm menu-card__cta">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"/><path d="M3 6h18"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
+                Pesan Sekarang
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== KENAPA MEMILIH KAMI ========== -->
+    <section id="kenapa" class="section section--features" aria-labelledby="features-title">
+      <div class="container">
+        <div class="section__header fade-up">
+          <span class="section__label">Keunggulan</span>
+          <h2 id="features-title" class="section__title">Kenapa Memilih Kami</h2>
+          <p class="section__desc">Empat alasan tamu kami selalu kembali — dari layanan hingga kualitas bahan terbaik.</p>
+        </div>
+        <div class="features__grid">
+          <article class="feature-card fade-up">
+            <div class="feature-card__icon" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"/></svg>
+            </div>
+            <h3 class="feature-card__title">Layanan Cepat</h3>
+            <p class="feature-card__desc">Tim kami terlatih memberikan pelayanan ramah dan efisien tanpa mengorbankan kualitas sajian.</p>
+          </article>
+          <article class="feature-card fade-up">
+            <div class="feature-card__icon" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3h12l4 6-10 13L2 9Z"/><path d="M11 3 8 9l4 13 4-13-3-6"/><path d="M2 9h20"/></svg>
+            </div>
+            <h3 class="feature-card__title">Kualitas Premium</h3>
+            <p class="feature-card__desc">Setiap hidangan disajikan dengan standar tinggi, dari pemilihan bahan hingga plating elegan.</p>
+          </article>
+          <article class="feature-card fade-up">
+            <div class="feature-card__icon" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"/><path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"/></svg>
+            </div>
+            <h3 class="feature-card__title">Bahan Segar</h3>
+            <p class="feature-card__desc">Sayuran, daging, dan rempah dipilih langsung dari supplier lokal terpercaya setiap hari.</p>
+          </article>
+          <article class="feature-card fade-up">
+            <div class="feature-card__icon" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21a1 1 0 0 0 1-1v-5.35c0-.245 0-.367-.027-.484a1 1 0 0 0-.11-.33c-.061-.11-.15-.2-.328-.387l-2.64-2.64A4 4 0 0 0 10.66 10H9a4 4 0 0 0-2.828 1.172l-2.5 2.5A4 4 0 0 0 3 14.66V20a1 1 0 0 0 1 1z"/><path d="M6 10V8a4 4 0 0 1 4-4h.5"/><circle cx="12" cy="4" r="2"/></svg>
+            </div>
+            <h3 class="feature-card__title">Chef Profesional</h3>
+            <p class="feature-card__desc">Dapur kami dipimpin chef berpengalaman yang menguasai teknik tradisional dan modern.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== GALLERY ========== -->
+    <section id="gallery" class="section section--gallery" aria-labelledby="gallery-title">
+      <div class="container">
+        <div class="section__header fade-up">
+          <span class="section__label">Galeri</span>
+          <h2 id="gallery-title" class="section__title">Momen di Rasa Nusantara</h2>
+          <p class="section__desc">Intip suasana dining, hidangan signature, dan pengalaman kuliner yang menanti Anda.</p>
+        </div>
+        <div class="gallery__grid">
+          <figure class="gallery__item fade-up gallery__item--wide">
+            <img src="assets/images/gallery-01.webp" alt="Suasana dining restoran dengan pencahayaan hangat" width="800" height="500" loading="lazy" decoding="async">
+            <figcaption class="gallery__caption">Suasana Dining</figcaption>
+          </figure>
+          <figure class="gallery__item fade-up">
+            <img src="assets/images/gallery-02.webp" alt="Flat lay hidangan premium dari atas dengan berbagai sajian warna-warni" width="800" height="532" loading="lazy" decoding="async">
+            <figcaption class="gallery__caption">Hidangan Overhead</figcaption>
+          </figure>
+          <figure class="gallery__item fade-up">
+            <img src="assets/images/gallery-03.webp" alt="Chef sedang memasak di dapur terbuka" width="400" height="400" loading="lazy" decoding="async">
+            <figcaption class="gallery__caption">Chef di Dapur</figcaption>
+          </figure>
+          <figure class="gallery__item fade-up">
+            <img src="assets/images/gallery-04.webp" alt="Dessert premium dengan dekorasi elegan" width="400" height="400" loading="lazy" decoding="async">
+            <figcaption class="gallery__caption">Dessert Premium</figcaption>
+          </figure>
+          <figure class="gallery__item fade-up gallery__item--wide">
+            <img src="assets/images/gallery-05.webp" alt="Interior bar restoran dengan pencahayaan ambient" width="800" height="500" loading="lazy" decoding="async">
+            <figcaption class="gallery__caption">Interior Bar</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== TESTIMONI ========== -->
+    <section id="testimoni" class="section section--testimoni" aria-labelledby="testimoni-title">
+      <div class="container">
+        <div class="section__header fade-up">
+          <span class="section__label">Testimoni</span>
+          <h2 id="testimoni-title" class="section__title">Kata Tamu Kami</h2>
+          <p class="section__desc">Pengalaman nyata dari tamu yang telah merasakan kelezatan Rasa Nusantara.</p>
+        </div>
+        <div class="testimoni-slider fade-up" id="testimoni-slider">
+          <div class="testimoni-slider__track" id="testimoni-track">
+            <article class="testimoni-card">
+              <div class="testimoni-card__stars" aria-label="Rating 5 dari 5 bintang">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
+              </div>
+              <blockquote class="testimoni-card__quote">
+                <p>&ldquo;Rendang wagyu-nya benar-benar luar biasa! Tekstur dagingnya empuk dan bumbunya meresap sempurna. Suasana restorannya juga sangat nyaman untuk makan malam keluarga.&rdquo;</p>
+              </blockquote>
+              <footer class="testimoni-card__author">
+                <img src="assets/images/testimoni-01.webp" alt="Foto Diana Putri" width="56" height="56" loading="lazy" decoding="async">
+                <div>
+                  <cite class="testimoni-card__name">Diana Putri</cite>
+                  <span class="testimoni-card__role">Food Blogger, Jakarta</span>
+                </div>
+              </footer>
+            </article>
+
+            <article class="testimoni-card">
+              <div class="testimoni-card__stars" aria-label="Rating 5 dari 5 bintang">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
+              </div>
+              <blockquote class="testimoni-card__quote">
+                <p>&ldquo;Sebagai pecinta nasi goreng, versi deluxe di sini jadi favorit saya. Porsinya pas, bumbunya kaya, dan pelayanannya sangat profesional. Pasti akan kembali lagi!&rdquo;</p>
+              </blockquote>
+              <footer class="testimoni-card__author">
+                <img src="assets/images/testimoni-02.webp" alt="Foto Budi Santoso" width="56" height="56" loading="lazy" decoding="async">
+                <div>
+                  <cite class="testimoni-card__name">Budi Santoso</cite>
+                  <span class="testimoni-card__role">Pengusaha, Surabaya</span>
+                </div>
+              </footer>
+            </article>
+
+            <article class="testimoni-card">
+              <div class="testimoni-card__stars" aria-label="Rating 5 dari 5 bintang">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>
+              </div>
+              <blockquote class="testimoni-card__quote">
+                <p>&ldquo;Saya membawa tamu asing ke sini dan mereka sangat terkesan. Gado-gado royal dan es cendol premium jadi highlight malam itu. Highly recommended!&rdquo;</p>
+              </blockquote>
+              <footer class="testimoni-card__author">
+                <img src="assets/images/testimoni-03.webp" alt="Foto Maya Anggraini" width="56" height="56" loading="lazy" decoding="async">
+                <div>
+                  <cite class="testimoni-card__name">Maya Anggraini</cite>
+                  <span class="testimoni-card__role">Travel Writer, Bandung</span>
+                </div>
+              </footer>
+            </article>
+          </div>
+          <div class="testimoni-slider__controls">
+            <button type="button" class="testimoni-slider__btn testimoni-slider__btn--prev" id="testimoni-prev" aria-label="Testimoni sebelumnya">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m15 18-6-6 6-6"/></svg>
+            </button>
+            <div class="testimoni-slider__dots" id="testimoni-dots" role="tablist" aria-label="Navigasi testimoni"></div>
+            <button type="button" class="testimoni-slider__btn testimoni-slider__btn--next" id="testimoni-next" aria-label="Testimoni berikutnya">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== CTA RESERVASI ========== -->
+    <section id="reservasi" class="section section--cta" aria-labelledby="reservasi-title">
+      <div class="container">
+        <div class="cta-box fade-up">
+          <div class="cta-box__content">
+            <h2 id="reservasi-title" class="cta-box__title">Siap Merasakan Cita Rasa Nusantara?</h2>
+            <p class="cta-box__desc">Reservasi sekarang dan dapatkan welcome drink gratis untuk setiap meja. Tempat terbatas — amankan kursi Anda hari ini.</p>
+            <div class="cta-box__actions">
+              <a href="https://wa.me/6281234567890?text=Halo%20Rasa%20Nusantara%2C%20saya%20ingin%20reservasi%20meja." class="btn btn--whatsapp btn--lg" target="_blank" rel="noopener noreferrer">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.435 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"/></svg>
+                Reservasi via WhatsApp
+              </a>
+              <a href="tel:+6281234567890" class="btn btn--outline-light btn--lg">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                Hubungi Kami
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========== FOOTER ========== -->
+  <footer id="kontak" class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__col footer__col--brand">
+          <a href="#home" class="footer__brand">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M3 2v7c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2V2"/>
+              <path d="M7 2v20"/>
+              <path d="M21 15V2a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2h3Zm0 0v7"/>
+            </svg>
+            <span>Rasa Nusantara</span>
+          </a>
+          <p class="footer__tagline">Kuliner Indonesia Modern Premium — menghadirkan cita rasa Nusantara autentik dengan sentuhan elegan sejak 2018.</p>
+          <div class="footer__social">
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram Rasa Nusantara">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
+            </a>
+            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook Rasa Nusantara">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+            </a>
+            <a href="https://tiktok.com" target="_blank" rel="noopener noreferrer" aria-label="TikTok Rasa Nusantara">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5"/></svg>
+            </a>
+            <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" aria-label="YouTube Rasa Nusantara">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 1.4-1.4 49.56 49.56 0 0 1 16.2 0A2 2 0 0 1 21.5 7a24.12 24.12 0 0 1 0 10 2 2 0 0 1-1.4 1.4 49.55 49.55 0 0 1-16.2 0A2 2 0 0 1 2.5 17"/><path d="m10 15 5-3-5-3z"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer__col">
+          <h3 class="footer__heading">Navigasi</h3>
+          <ul class="footer__links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#tentang">Tentang</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#testimoni">Testimoni</a></li>
+            <li><a href="#reservasi">Reservasi</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__col">
+          <h3 class="footer__heading">Kontak</h3>
+          <address class="footer__contact">
+            <p>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              <a href="tel:+6281234567890">+62 812-3456-7890</a>
+            </p>
+            <p>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+              <a href="mailto:hello@rasanusantara.com">hello@rasanusantara.com</a>
+            </p>
+            <p>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              Senin–Minggu, 10.00 – 22.00 WIB
+            </p>
+          </address>
+        </div>
+
+        <div class="footer__col">
+          <h3 class="footer__heading">Lokasi</h3>
+          <address class="footer__address">
+            <p>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"/><circle cx="12" cy="10" r="3"/></svg>
+              Jl. Kuliner Nusantara No. 88,<br>
+              Kebayoran Baru,<br>
+              Jakarta Selatan 12190
+            </p>
+          </address>
+          <a href="https://maps.google.com/?q=Jl.+Kuliner+Nusantara+No.+88+Kebayoran+Baru+Jakarta+Selatan" class="btn btn--outline btn--sm footer__map-btn" target="_blank" rel="noopener noreferrer">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"/><circle cx="12" cy="10" r="3"/></svg>
+            Buka di Google Maps
+          </a>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <p>&copy; 2026 Rasa Nusantara. Semua hak cipta dilindungi.</p>
+        <p class="footer__credit">Dibuat untuk Webinar Jelajah Kode</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
